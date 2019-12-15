@@ -1,0 +1,20 @@
+App\Domain\Model\Record\Record:
+    table: record
+    type: entity
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        timeSpent:
+            type: string
+            length: 255
+            nullable: false
+        description:
+            type: string
+            length: 255
+            nullable: false
+        createdAt:
+            type: datetime_immutable
+            nullable: false
