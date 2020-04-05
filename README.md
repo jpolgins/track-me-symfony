@@ -1,0 +1,4 @@
+### Running the app ⚙️
+```
+make
+```
